@@ -1,5 +1,5 @@
 import { CheckCircle2, Info, Bell } from "lucide-react";
-import { notificationsData } from "../data/mockData";
+import { notificationsData } from "../data/mockdata";
 
 const iconFor = (type) => {
   if (type === "success")

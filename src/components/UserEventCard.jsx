@@ -1,10 +1,10 @@
 import { Calendar, Clock, MapPin, Trash2, IdCard } from "lucide-react";
 
 import Button from "../components/ui/Button";
-import { categoryStyles, statusStyles } from "../data/mockData";
+import { categoryStyles, statusStyles } from "../data/mockdata";
 import { toast } from "sonner";
 
-const UserEventCard = ({ event,events, registrations, setRegistrations }) => {
+const UserEventCard = ({ event, registrations, setRegistrations }) => {
   const cat = categoryStyles[event.category] || categoryStyles.Technical;
 
   const status = statusStyles[event.status] || statusStyles.Confirmed;
